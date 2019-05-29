@@ -1,0 +1,58 @@
+.dashBoard{
+    display: flex;
+    
+}
+
+.instanceDiv{
+    margin-left: auto;
+    margin-right: auto;
+    overflow: scroll; 
+
+}
+
+.instanceBoard{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 5px;
+    width: 250px;
+    height: 500px;
+    border-radius: 10px; 
+    justify-content: space-between;
+    margin: 10px;
+      
+}
+
+.logBoard{
+    margin: 10px;
+   /*  display: flex;
+    flex-direction: column; */
+    border: 1px solid black;
+    padding: 5px;
+    width: 250px;
+    height: 500px;
+    border-radius: 10px; 
+    /* justify-content: space-between;  */
+    overflow: scroll; 
+}
+
+.instance{
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    padding: 5px;
+}
+
+.ring{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    
+}
+
+.newInstance{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
